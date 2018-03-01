@@ -1,7 +1,8 @@
 import {Component, Input, Output, EventEmitter, TemplateRef, ViewChild, HostListener} from '@angular/core';
 import {ControlValueAccessor, NG_VALUE_ACCESSOR} from '@angular/forms';
 import {noop} from 'rxjs/util/noop';
-import {Observable, Subject} from 'rxjs';
+import {Observable} from 'rxjs/Observable';
+import {Subject} from 'rxjs/Subject';
 
 // searchbar default options
 const defaultOpts = {
